@@ -1,0 +1,11 @@
+#main {
+    padding: 1px;
+}
+.info {
+    width: 60%;
+    background-color: white;
+    height: 300px;
+    margin: 15px auto;
+    border-radius: 15px;
+    opacity: 0.7;
+}
