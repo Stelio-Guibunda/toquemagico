@@ -6,7 +6,7 @@
 
 }
 
-.header{
+#header{
 
     min-height: 100vh;
     width: 100%;
@@ -18,10 +18,11 @@
 .LOGO{
 
 
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 nav{
+  
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
@@ -110,8 +111,8 @@ nav{
   }
   p{
 
-    color: #777;
-    font-size: 14px;
+    color: rgb(121, 121, 121);
+    font-size: 18px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
@@ -146,7 +147,8 @@ nav{
 
   }
   footer {
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../imagens/cover.jpg);
+   border-top: 0.1px solid #bebdbd;
+    
     display: flex;
     gap: 10px;
     
@@ -162,3 +164,150 @@ nav{
     margin: auto;
     border-style: none;
   }
+  .email{
+    display: flex;
+     
+    width: 25px;
+    height: 25px;
+    align-items: center;
+   
+  }
+  .mail{
+    width: 30px;
+    height: 35px;
+  }
+
+  #infocontactos{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   align-content: center;
+    
+  }
+
+  #localizacao{
+    padding-top: 18px;
+
+
+  }
+  #contactos{
+    
+  }
+  .LOGO2{
+
+
+    height: 100px;
+    width: 100px;
+   margin-bottom: -20px;
+   margin-top: -7px;
+}
+#footernovo h2{
+  color: #fff;
+
+}
+.geralcontacto{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+.contacto{
+  display: flex;
+  flex-direction: column;
+}
+.links{
+  display: block;
+
+
+}
+.mail{
+ 
+display: flex;
+flex-direction: row;
+margin-left: -43px
+
+}
+.footernovo{
+display: flex;
+
+
+}
+#loc{
+text-align: justify;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.informacoes,.Submit,.mail,.links{
+  padding-top: 11px;
+}
+  
+#footernovo p { 
+  font-size: 15px;
+}
+#footernovo h2 { 
+  font-size: 20px;
+}
+.Submit{
+ 
+  align-items: center;
+}
+.btnn{
+  background-color: orange;
+}
+form .formtxt {
+border-bottom:  2px solid #adadad;
+position:relative;
+margin: 30 px 0;
+}
+
+.tudo{
+  
+ display: flex;
+
+ flex-direction: column;
+ align-items: center;
+ 
+ padding: 13px;
+ position: relative;
+
+  
+  
+ 
+ 
+}
+.aa{
+  width: 85%;
+  border-top: 1px solid #adadad;
+
+}
+
+.sec{
+  background-color: black;
+}
+.direitos{
+  display: flex;
+  justify-content: right;
+  margin-left: 816px;
+  position: absolute;
+  padding-top: 10px;}
+
+  
+ 
+  
+ .qq{
+  display: flex;
+  flex-direction: row;
+ 
+  justify-content: center;
+  padding-bottom: 12px;
+ 
+  gap: 10px;
+}
+.copy{
+  width: 23px;
+  height: 23px;
+  
+}
+.direitos p{
+  font-size: 15px;
+}

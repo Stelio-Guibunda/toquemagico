@@ -2,10 +2,57 @@
     padding: 1px;
 }
 .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
     width: 60%;
     background-color: white;
-    height: 300px;
+    height: fit-content;
     margin: 15px auto;
     border-radius: 15px;
     opacity: 0.7;
+    padding-bottom: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+.info h1{
+   margin: 15px auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.imgicon{
+
+width:70px;
+height:70px;
+
+}
+.logo{
+
+    width: 300px;
+    height: 300px;
+   margin-top: -50px;
+   margin-bottom: -80px;
+    
+} 
+.info1{
+
+    display: flex;
+    text-align: justify;
+    text-justify:center ;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    background-color: white;
+    height: fit-content;
+    margin: 15px auto;
+    border-radius: 15px;
+    opacity: 0.7;
+    padding-top: 20px;
+    padding-bottom: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
+  
 }
